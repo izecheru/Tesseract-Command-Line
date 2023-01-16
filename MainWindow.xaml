@@ -1,0 +1,15 @@
+﻿<Window x:Class="Tesseract_OCR.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tesseract_OCR"
+        xmlns:view="clr-namespace:Tesseract_OCR.View"
+        mc:Ignorable="d"
+        Title="Tesseract OCR" Height="300" Width="520"
+        ResizeMode="NoResize"
+        > 
+    <Grid>
+        <view:MainView/>
+    </Grid>
+</Window> 
